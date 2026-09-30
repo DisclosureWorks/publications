@@ -7,7 +7,7 @@ This is the immutable October 2026 public edition root for `parallax-publication
 Sections:
 
 - [Research Publications](../../research/index.md)
-- [Legislation](../../legislation/index.md)
+- [Legislation Publications](../../legislation/index.md)
 
 Exact title used in navigation:
 

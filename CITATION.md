@@ -5,7 +5,7 @@ Edition label: `2026-10`
 Use the public title exactly as published:
 
 - Research Publications: `National Security Power and Constitutional Imbalance`
-- Legislation: `EFTA II Memo`
+- Legislation Publications: `EFTA II Memo`
 
 How to cite:
 

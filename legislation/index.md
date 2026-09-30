@@ -1,4 +1,4 @@
-# Legislation
+# Legislation Publications
 
 Visible edition label: `2026-10`
 
