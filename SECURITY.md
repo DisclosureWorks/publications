@@ -8,6 +8,15 @@ Edition label: `2026-10`
 - Use this channel for disclosure of content integrity, publication safety, link-closure, or sensitive-data issues.
 - Corrections and removal requests go to `corrections@urekalabs.ai`; see [Corrections and Removal](corrections-removal.md).
 
+## GitHub issues
+
+Issues in this repository are not monitored. Send corrections, removal requests and feedback to
+`corrections@urekalabs.ai`, and security and privacy reports to `security@urekalabs.ai`.
+
+**Never post a victim's identity, a minor's identity, or anyone's private information in a
+public issue, pull request or comment.** Anything posted there is public at once and can be
+copied before it is taken down. Email it instead.
+
 ## Incident response
 
 *Applies to Parallax Publications and the Parallax Research Atlas.*
