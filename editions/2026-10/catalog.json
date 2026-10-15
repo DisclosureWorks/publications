@@ -1,0 +1,65 @@
+{
+  "atlas_manifest": {
+    "edition": "2026-10",
+    "format": 1,
+    "sha256": "6847359e0bfd34ca890be3c327aa96953fca6d13ec9fe313bc9c408577d2bd43",
+    "url": "https://atlas.disclosureworks.ai/editions/2026-10/manifest.json"
+  },
+  "edition": "2026-10",
+  "format": 1,
+  "papers": [
+    {
+      "files": {
+        "docx": {
+          "path": "legislation/efta-ii-memo/2026-10/efta-ii-memo-v2.8.7.docx",
+          "sha256": "bce786492686dfdbe59258c33e00a336905e9a12909de81358455ee5c66379e1"
+        },
+        "markdown": {
+          "path": "legislation/efta-ii-memo/2026-10/index.md",
+          "sha256": "6f42d0f24eaa257029a009c530157868c5cd4adfa82b8f1a89a25ba5f1c6eb8b"
+        },
+        "pdf": {
+          "path": "legislation/efta-ii-memo/2026-10/efta-ii-memo-v2.8.7.pdf",
+          "sha256": "87d801cbd2e0c89715ceb9840618f908bb8d8f8e1fe415b1bc4639e32147cd9c"
+        }
+      },
+      "public_id": "pub-efta-ii-memo-v2-8-7",
+      "public_slug": "efta-ii-memo",
+      "rights": "CC BY 4.0",
+      "section": "legislation",
+      "source": {
+        "git_blob_sha": "7fe3de1813789b8ce5a81537d110efeda79a52bf",
+        "snapshot_sha256": "9ab329289d6ca7422943d45ef43ad373514de24cd02c79b9a32afaa1306aa9ab"
+      },
+      "title": "EFTA II Memo — assessment of H.R. 9694 / S. 5005",
+      "version": "v2.8.7"
+    },
+    {
+      "files": {
+        "docx": {
+          "path": "research/national-security-power-and-constitutional-imbalance/2026-10/national-security-power-and-constitutional-imbalance-v8.20.4.docx",
+          "sha256": "1096c0e6db49017bfc1e8689d1aac211657c19111bd8b63fccf29f74063dcd85"
+        },
+        "markdown": {
+          "path": "research/national-security-power-and-constitutional-imbalance/2026-10/index.md",
+          "sha256": "e8ef20c842636a418a87a88204e4782cf0f412673bd6f5e192de361a5778bea1"
+        },
+        "pdf": {
+          "path": "research/national-security-power-and-constitutional-imbalance/2026-10/national-security-power-and-constitutional-imbalance-v8.20.4.pdf",
+          "sha256": "0a5a206f260d3083f4543c05b567198866278aa23c1509f477499803d4e52f5b"
+        }
+      },
+      "public_id": "pub-national-security-power-and-constitutional-imbalance-v8-20-4",
+      "public_slug": "national-security-power-and-constitutional-imbalance",
+      "rights": "CC BY 4.0",
+      "section": "research",
+      "source": {
+        "git_blob_sha": "52725bc6f8914cb4aec229326515ed69d1382763",
+        "snapshot_sha256": "0b722052f0a504f35b6427cb2e5ed262148bb1d092e2107552433419df4ee954"
+      },
+      "title": "National Security Power and Constitutional Imbalance",
+      "version": "v8.20.4"
+    }
+  ],
+  "released": "2026-10-16"
+}

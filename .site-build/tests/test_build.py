@@ -692,3 +692,32 @@ def test_stylesheet_makes_no_external_requests() -> None:
     assert re.search(r"\burl\s*\(", code, re.I) is None
     assert re.search(r"(?:https?:)?//", code) is None
     assert len(css.encode("utf-8")) < 15 * 1024
+
+
+@pytest.mark.parametrize(
+    ("surface", "section_label"),
+    [("atlas", "Atlas"), ("publications", "Publications")],
+)
+def test_header_home_opens_the_parallax_index_and_section_link_opens_this_site(
+    tmp_path: Path, surface: str, section_label: str
+) -> None:
+    src = tmp_path / "src"
+    src.mkdir()
+    (src / "page.md").write_text("# A page\n\nEdition label: `2026-10`\n\nBody.\n", encoding="utf-8")
+    result = run_build(src, tmp_path / "out", surface)
+    assert result.returncode == 0, result.stderr
+    for rendered in (tmp_path / "out" / "index.html", tmp_path / "out" / "page" / "index.html"):
+        text = rendered.read_text(encoding="utf-8")
+        nav = text.split('<nav aria-label="Primary navigation">', 1)[1].split("</nav>", 1)[0]
+        assert '<a href="https://disclosureworks.ai/">Home</a>' in nav
+        assert f'<a href="/">{section_label}</a>' in nav
+        assert nav.index("Home") < nav.index(section_label)
+
+
+def test_home_url_can_be_overridden(tmp_path: Path) -> None:
+    src = tmp_path / "src"
+    src.mkdir()
+    result = run_build(src, tmp_path / "out", "atlas", "--home-url", "https://index.example.test")
+    assert result.returncode == 0, result.stderr
+    text = (tmp_path / "out" / "index.html").read_text(encoding="utf-8")
+    assert '<a href="https://index.example.test/">Home</a>' in text

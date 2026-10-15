@@ -1,0 +1,29 @@
+{
+  "edition": "2026-10",
+  "files": {
+    "docx": {
+      "path": "legislation/efta-ii-memo/2026-10/efta-ii-memo-v2.8.7.docx",
+      "sha256": "bce786492686dfdbe59258c33e00a336905e9a12909de81358455ee5c66379e1"
+    },
+    "markdown": {
+      "path": "legislation/efta-ii-memo/2026-10/index.md",
+      "sha256": "6f42d0f24eaa257029a009c530157868c5cd4adfa82b8f1a89a25ba5f1c6eb8b"
+    },
+    "pdf": {
+      "path": "legislation/efta-ii-memo/2026-10/efta-ii-memo-v2.8.7.pdf",
+      "sha256": "87d801cbd2e0c89715ceb9840618f908bb8d8f8e1fe415b1bc4639e32147cd9c"
+    }
+  },
+  "provenance": "Parallax research paper efta-ii-memo at version v2.8.7, the immutable snapshot recorded in this row; a fix bump of the peer-reviewed v2.8.6 that cites the companion at its published v8.20.3 and states the Position in current form (TASK-1026, JOB-24091 PM-verified).",
+  "public_id": "pub-efta-ii-memo-v2-8-7",
+  "public_slug": "efta-ii-memo",
+  "released": "2026-10-16",
+  "rights": "CC BY 4.0",
+  "section": "legislation",
+  "source": {
+    "git_blob_sha": "7fe3de1813789b8ce5a81537d110efeda79a52bf",
+    "snapshot_sha256": "9ab329289d6ca7422943d45ef43ad373514de24cd02c79b9a32afaa1306aa9ab"
+  },
+  "title": "EFTA II Memo — assessment of H.R. 9694 / S. 5005",
+  "version": "v2.8.7"
+}

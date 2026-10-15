@@ -24,6 +24,11 @@ SITE_TITLES = {
     "atlas": "Parallax Research Atlas",
     "publications": "Parallax Publications",
 }
+SECTION_LABELS = {
+    "atlas": "Atlas",
+    "publications": "Publications",
+}
+DEFAULT_HOME_URL = "https://disclosureworks.ai/"
 AREA_SLUG = re.compile(
     r"^[a-z0-9]+(?:-[a-z0-9]+)*(?:/[a-z0-9]+(?:-[a-z0-9]+)*)*$"
 )
@@ -446,6 +451,7 @@ def render_page(
     site_title: str,
     chrome: dict[str, bool],
     canonical_url: str,
+    chrome_urls: dict[str, str],
 ) -> None:
     page.document["meta"]["title"] = {"t": "MetaString", "c": page.title}
     command = [
@@ -456,6 +462,10 @@ def render_page(
         f"--template={template}",
         "--variable",
         f"site-title={site_title}",
+        "--variable",
+        f"home-url={html.escape(chrome_urls['home-url'], quote=True)}",
+        "--variable",
+        f"section-label={chrome_urls['section-label']}",
         "--variable",
         f"canonical-url={html.escape(canonical_url, quote=True)}",
     ]
@@ -543,6 +553,8 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--out", required=True, type=Path)
     parser.add_argument("--surface", required=True, choices=sorted(SITE_TITLES))
     parser.add_argument("--base-url", required=True)
+    parser.add_argument("--home-url", default=DEFAULT_HOME_URL,
+                        help="absolute URL of the Parallax index page that the Home link opens")
     parser.add_argument("--areas", type=Path)
     parser.add_argument("--page-areas", type=Path)
     parser.add_argument("--strict-page-areas", action="store_true")
@@ -574,6 +586,7 @@ def build(args: argparse.Namespace) -> None:
     else:
         raise BuildError(f"{args.out}: OUT may not contain SRC")
     base_url = normalized_base_url(args.base_url)
+    home_url = normalized_base_url(args.home_url.rstrip("/")) + "/"
     if args.areas and args.surface != "atlas":
         raise BuildError(f"{args.areas}: --areas is valid only for the atlas surface")
 
@@ -782,6 +795,7 @@ def build(args: argparse.Namespace) -> None:
         render_page(
             page, out / page.output.as_posix(), template, SITE_TITLES[args.surface], chrome,
             base_url + clean_url_for_output(page.output),
+            {"home-url": home_url, "section-label": SECTION_LABELS[args.surface]},
         )
 
     headers = """/*

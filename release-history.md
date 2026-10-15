@@ -6,10 +6,13 @@ Correction notices are listed on the [Correction Notice Register](corrections/in
 and removals on the [Removals Log](corrections/removals-log.md) page.
 
 ## 2026-10
-- Published papers: paper count set at release
+- Published papers: 2
+- EFTA II Memo — assessment of H.R. 9694 / S. 5005, version v2.8.7
+- National Security Power and Constitutional Imbalance, version v8.20.4
 - Immutable edition root: `/editions/2026-10/`
 - Movable latest pointer: `/latest/`
 - Patch releases: `/editions/2026-10-patch-N/`
+- Released: 2026-10-16
 ## Rescheduled draft
 - The planned `2026-09` edition was never published; the first edition moved to 2026-10-01.
 ## Patch policy

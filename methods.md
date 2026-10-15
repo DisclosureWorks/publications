@@ -2,7 +2,7 @@
 
 Edition label: `2026-10`
 
-This repository publishes only reviewed, allowlisted, public-facing outputs.
+This site and its public source repository, [github.com/DisclosureWorks/parallax-publications](https://github.com/DisclosureWorks/parallax-publications), publish only reviewed, allowlisted, public-facing outputs.
 
 Principles:
 

@@ -4,8 +4,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Corrections, removal requests and feedback
-    url: mailto:corrections@urekalabs.ai
+    url: mailto:corrections@disclosureworks.ai
     about: Report an error or ask for a removal by email. For general feedback, use the subject line "Feedback". Issues here are not monitored.
   - name: Security and privacy reports
-    url: mailto:security@urekalabs.ai
+    url: mailto:security@disclosureworks.ai
     about: Report a security, integrity or privacy problem by email. Never post victim or private information in a public issue.

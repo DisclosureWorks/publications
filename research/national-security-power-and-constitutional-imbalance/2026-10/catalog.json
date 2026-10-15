@@ -1,0 +1,29 @@
+{
+  "edition": "2026-10",
+  "files": {
+    "docx": {
+      "path": "research/national-security-power-and-constitutional-imbalance/2026-10/national-security-power-and-constitutional-imbalance-v8.20.4.docx",
+      "sha256": "1096c0e6db49017bfc1e8689d1aac211657c19111bd8b63fccf29f74063dcd85"
+    },
+    "markdown": {
+      "path": "research/national-security-power-and-constitutional-imbalance/2026-10/index.md",
+      "sha256": "e8ef20c842636a418a87a88204e4782cf0f412673bd6f5e192de361a5778bea1"
+    },
+    "pdf": {
+      "path": "research/national-security-power-and-constitutional-imbalance/2026-10/national-security-power-and-constitutional-imbalance-v8.20.4.pdf",
+      "sha256": "0a5a206f260d3083f4543c05b567198866278aa23c1509f477499803d4e52f5b"
+    }
+  },
+  "provenance": "Parallax research paper secret-power-oversight at version v8.20.4, the immutable snapshot recorded in this row; peer-reviewed under dev/peer-review/PROTOCOL.md (three Opus 5.5 rounds and the Codex cross-family round, all five personas at minor-revision or better) with the review record kept alongside the version. v8.20.4 is a fix bump of the approved v8.20.3: the memo is cited at its published version 2.8.7 and its two links use the disclosureworks.ai address (TASK-995).",
+  "public_id": "pub-national-security-power-and-constitutional-imbalance-v8-20-4",
+  "public_slug": "national-security-power-and-constitutional-imbalance",
+  "released": "2026-10-16",
+  "rights": "CC BY 4.0",
+  "section": "research",
+  "source": {
+    "git_blob_sha": "52725bc6f8914cb4aec229326515ed69d1382763",
+    "snapshot_sha256": "0b722052f0a504f35b6427cb2e5ed262148bb1d092e2107552433419df4ee954"
+  },
+  "title": "National Security Power and Constitutional Imbalance",
+  "version": "v8.20.4"
+}

@@ -2,14 +2,12 @@
 
 Visible edition label: `2026-10`
 
-This is the immutable October 2026 public edition root for `parallax-publications`.
-
 Sections:
 
 - [Research Publications](../../research/index.md)
 - [Legislation Publications](../../legislation/index.md)
 
-Exact title used in navigation:
+Papers in this edition:
 
-- `National Security Power and Constitutional Imbalance`
-- `EFTA II Memo`
+- [EFTA II Memo — assessment of H.R. 9694 / S. 5005](../../legislation/efta-ii-memo/2026-10/index.md), version v2.8.7
+- [National Security Power and Constitutional Imbalance](../../research/national-security-power-and-constitutional-imbalance/2026-10/index.md), version v8.20.4

@@ -30,7 +30,7 @@ are new work and belong in the next edition, clearly dated. Calling a changed op
 
 ### 3. How to report one
 
-Write to `corrections@urekalabs.ai`. Include the edition ID, the page or object ID, what is wrong,
+Write to `corrections@disclosureworks.ai`. Include the edition ID, the page or object ID, what is wrong,
 and — if you have it — the source that shows what is right. Anonymous reports are accepted
 and handled the same way.
 
@@ -39,7 +39,7 @@ You do not need to be the subject of the material to report an error in it.
 ### 3a. Feedback that is not a correction
 
 General feedback, such as a comment, a question or a suggestion for future work, also goes to
-`corrections@urekalabs.ai`, with the subject line `Feedback`. We read it, but we do not log it
+`corrections@disclosureworks.ai`, with the subject line `Feedback`. We read it, but we do not log it
 as a correction, and we do not promise a reply. If you think something we published is wrong,
 report it as a correction under § 3, so that it gets a severity and a deadline.
 
@@ -147,7 +147,7 @@ response on the record. We would rather publish a disagreement than quietly bury
 
 ### 4. Process
 
-1. **Request** to `corrections@urekalabs.ai`, identifying the edition, the page or object ID, the
+1. **Request** to `corrections@disclosureworks.ai`, identifying the edition, the page or object ID, the
    material, and the ground relied on.
 2. **Acknowledgement within three working days.** For grounds 1, 2, and 6 we acknowledge and
    act to suppress the specific material immediately, before completing the review.
