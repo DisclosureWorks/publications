@@ -1,6 +1,6 @@
 # Public Methods
 
-Edition label: `2026-10`
+Edition label: `2026-11`
 
 This site and its public source repository, [github.com/DisclosureWorks/parallax-publications](https://github.com/DisclosureWorks/parallax-publications), publish only reviewed, allowlisted, public-facing outputs.
 
@@ -18,7 +18,7 @@ Non-goals:
 
 ## Legal and privacy review
 
-Applies to Parallax Publications and the Parallax Research Atlas.
+Applies to DisclosureWorks Publications and the DisclosureWorks Sourcebook.
 
 ### 1. Why this exists rather than relying on removal
 
@@ -82,10 +82,10 @@ The publication owner. The single-approver posture is explicit: the person
 who decides an item has cleared review is the same person who signs that the edition may
 publish. There is no independent second reader.
 
-**This is the weakest point in the first edition's controls and should be read as such.**
-It is acceptable for a first edition only because the technical gates are fail-closed and
-independently tested, so the human is not the only thing standing between restricted
-material and a public URL. It should be revisited after the first edition.
+**This is the weakest point in our controls and should be read as such.**
+We accept it for now only because the technical gates are fail-closed and independently
+tested, so the human is not the only thing standing between restricted material and a
+public URL. We have not yet added a second reader, and we plan to revisit this.
 
 ### 6. Outside counsel
 

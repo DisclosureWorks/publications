@@ -1,0 +1,108 @@
+{
+  "approvals": {
+    "count": 2,
+    "hash": "c227bbd36510ed24feab1083d5dd93c9b6de83a06fd41ac46c574cce022eb6c1",
+    "rows": [
+      {
+        "approved_at": "2026-11-01",
+        "public_id": "pub-efta-ii-memo-v2-9-3",
+        "version": "v2.9.3"
+      },
+      {
+        "approved_at": "2026-11-01",
+        "public_id": "pub-national-security-power-and-constitutional-imbalance-v9-2-2",
+        "version": "v9.2.2"
+      }
+    ]
+  },
+  "atlas_manifest": {
+    "edition": "2026-11",
+    "format": 3,
+    "sha256": "3ae484f2f65ca8cac0679e8a97eee57f73446b37371f20e3353c3ed3f765cc79",
+    "url": "https://sourcebook.disclosureworks.ai/editions/2026-11/manifest.json"
+  },
+  "component_versions": {
+    "exporter": "10.5.7",
+    "publications_assemble": "2.2.0",
+    "release_build": "2.0.0"
+  },
+  "counts": {
+    "excluded": 0,
+    "published": 2,
+    "rows": 2
+  },
+  "edition": "2026-11",
+  "exclusions": [],
+  "format": 1,
+  "papers": [
+    {
+      "files": {
+        "docx": {
+          "path": "legislation/efta-ii-memo/2026-11/efta-ii-memo-v2.9.3.docx",
+          "sha256": "6f21a6d517131fedd5f6f40e55662bf57c2451417f320d20fc90b2571ca4087b"
+        },
+        "markdown": {
+          "path": "legislation/efta-ii-memo/2026-11/index.md",
+          "sha256": "45c9311b06c7eaeead3fd7bac0636b3cd9ad7b8c916ef13df8cb4dd9127a06fb"
+        },
+        "pdf": {
+          "path": "legislation/efta-ii-memo/2026-11/efta-ii-memo-v2.9.3.pdf",
+          "sha256": "18c4ea52a27454bdcc6d936f3ce8f45acb9daef91356fea2ac5a0f6ab8bc3c53"
+        }
+      },
+      "peer_credit_digest": "0f3d5209b24390143db8fda0ae322ce602193631338c0c4be6170591770d4a0f",
+      "peer_projects": [
+        "courtlistener"
+      ],
+      "peer_register_sha256": "b3117855729867f0d2291e0566665f85278b40e06755f201a1e200a8cbc6be51",
+      "public_id": "pub-efta-ii-memo-v2-9-3",
+      "public_slug": "efta-ii-memo",
+      "rights": "CC BY 4.0",
+      "section": "legislation",
+      "source": {
+        "git_blob_sha": "3f8f54951d810afdb8cc790bcb1a45afebbbbc69",
+        "snapshot_sha256": "70a0cff5ba01c909bfd95addf867cd2926d2ea8c33055e4ad7e2296c0a685edb"
+      },
+      "title": "EFTA II Memo — assessment of H.R. 9694 / S. 5005",
+      "version": "v2.9.3"
+    },
+    {
+      "files": {
+        "docx": {
+          "path": "research/national-security-power-and-constitutional-imbalance/2026-11/national-security-power-and-constitutional-imbalance-v9.2.2.docx",
+          "sha256": "291f138105637c570829206c4036bae55d5c0225bd715d1d838b117fd0bfcb2e"
+        },
+        "markdown": {
+          "path": "research/national-security-power-and-constitutional-imbalance/2026-11/index.md",
+          "sha256": "7cdf6f783f1dbfd642a2965877302047fe60c2e0f9a30c53279dfc9ab1d7dc76"
+        },
+        "pdf": {
+          "path": "research/national-security-power-and-constitutional-imbalance/2026-11/national-security-power-and-constitutional-imbalance-v9.2.2.pdf",
+          "sha256": "0e9f37ceb8a881ccbc26154bf18b10e3999e34e0a21fb6983f1823e0abfb193f"
+        }
+      },
+      "peer_credit_digest": "48ec01378d46958f1ab2fc17293e45a9a455f4fdf4bfbec55e7de39c8e01ac41",
+      "peer_projects": [
+        "courtlistener",
+        "epstein-data-concordance",
+        "soror-fv"
+      ],
+      "peer_register_sha256": "b3117855729867f0d2291e0566665f85278b40e06755f201a1e200a8cbc6be51",
+      "public_id": "pub-national-security-power-and-constitutional-imbalance-v9-2-2",
+      "public_slug": "national-security-power-and-constitutional-imbalance",
+      "rights": "CC BY 4.0",
+      "section": "research",
+      "source": {
+        "git_blob_sha": "29f2a964622c5650cfb013d4b047c8347d4c7b8f",
+        "snapshot_sha256": "1e4de9d951271ea8ee59fded6497b9444e329d5a4ed38753b4eb4997af1d171d"
+      },
+      "title": "National Security Power and Constitutional Imbalance",
+      "version": "v9.2.2"
+    }
+  ],
+  "released": "2026-11-05",
+  "source_cutoff": {
+    "fingerprint": "9d3bde22af08324b76b91c11cbaacc2ca61fe702e7895e479a29bf6ab091da8b",
+    "record_id": "2026-11"
+  }
+}

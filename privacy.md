@@ -1,6 +1,6 @@
 # Privacy
 
-Edition label: `2026-10`
+Edition label: `2026-11`
 
 Publications are screened for privacy risk before release.
 
@@ -17,7 +17,7 @@ Pre-publication legal and privacy review is described on the [Public Methods](me
 
 ## Redaction policy
 
-Applies to Parallax Publications and the Parallax Research Atlas.
+Applies to DisclosureWorks Publications and the DisclosureWorks Sourcebook.
 
 ### 1. What redaction is for
 
@@ -37,13 +37,14 @@ These are applied by default to everything we publish, in both products:
 1. **Names and identifying details of victims and survivors of sexual abuse**, including
    where those names appear unredacted in the underlying public record.
 2. **Identities of people who were minors** at the time of the events described.
-3. **Government identity numbers** — Social Security numbers, passport numbers, driver
-   licence numbers.
-4. **Financial account identifiers** — account numbers, routing numbers, card numbers.
-5. **Medical information** about identifiable individuals.
-6. **Personal contact details** of private individuals — home addresses, personal phone
-   numbers, personal email addresses.
-7. **Dates of birth** of private individuals.
+3. **Personal data of victims, survivors and minors**: contact details, identity numbers,
+   financial account identifiers, medical information and dates of birth.
+4. **Medical information about private individuals who are not subjects of the record**,
+   meaning people the record does not name as taking part in the conduct described.
+
+Other personal data in the record is published, including identity documents, financial
+account numbers and contact details, because following the money and establishing
+identities is the purpose of the work.
 
 Names and conduct of **public officials and public figures acting in a public capacity** are
 not redacted. That material is the point of the publication.
@@ -55,7 +56,7 @@ A redaction in anything we publish must remove the underlying data, not merely c
 - No black boxes drawn over live text.
 - No CSS, layer, or overlay concealment in HTML.
 - No metadata, alt text, or embedded original retaining the redacted content.
-- In the Atlas, no redacted value surviving in a sibling field, an index, an embedding, or a
+- In the DisclosureWorks Sourcebook, no redacted value surviving in a sibling field, an index, an embedding, or a
   checksum input from which it could be recovered.
 
 **Every redaction is verified after rendering, in the published artifact, not in the source.**

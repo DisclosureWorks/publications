@@ -1,6 +1,6 @@
 # Security and Contact Policy
 
-Edition label: `2026-10`
+Edition label: `2026-11`
 
 ## Security contact
 
@@ -19,7 +19,7 @@ copied before it is taken down. Email it instead.
 
 ## Incident response
 
-*Applies to Parallax Publications and the Parallax Research Atlas.*
+*Applies to DisclosureWorks Publications and the DisclosureWorks Sourcebook.*
 
 ### 1. What counts as an incident
 
@@ -28,8 +28,8 @@ have. Specifically:
 
 - Restricted, sealed, or embargoed content published.
 - A victim or minor identified, in breach of [the redaction policy](privacy.md) § 2.
-- Sensitive personal data published — identity numbers, financial accounts, medical
-  information, private contact details.
+- Personal data of a victim or minor published, or medical information about a private
+  individual who is not a subject of the record.
 - A credential or secret published.
 - Unreviewed content published — an item that never cleared
   [legal and privacy review](methods.md).
@@ -44,8 +44,8 @@ handled alongside this policy; it becomes a publication incident only if it expo
 
 | Severity | Definition | Response |
 |---|---|---|
-| **SEV-1** | A victim or minor is identified, or sensitive personal data of a private individual is exposed | Immediate suppression, before diagnosis |
-| **SEV-2** | Restricted, sealed, or unreviewed content is public; a secret is exposed | Suppress within 4 hours |
+| **SEV-1** | A victim or minor is identified, or personal data of a victim or minor is exposed | Immediate suppression, before diagnosis |
+| **SEV-2** | Restricted, sealed, or unreviewed content is public; a secret is exposed | Suppress the same day |
 | **SEV-3** | Wrong-destination publication, internal path leakage, or a build-hygiene failure with no sensitive content exposed | Fix in the next patch release |
 
 At SEV-1, suppression comes before understanding. Do not hold a fix while establishing how
@@ -98,7 +98,7 @@ The post-mortem is published in summary form for SEV-1 and SEV-2.
 
 ### 6. The limit, stated plainly
 
-Containment is not erasure. Under CC BY 4.0, with an Atlas designed for automated ingest,
+Containment is not erasure. Under CC BY 4.0, with a DisclosureWorks Sourcebook designed for automated ingest,
 material that was public for any period may have been copied. We can suppress, correct, and
 notify. **We cannot guarantee retraction**, and we will not tell an affected person that we
 can.

@@ -1,11 +1,11 @@
 # Citation Guide
 
-Edition label: `2026-10`
+Edition label: `2026-11`
 
 Use the public title exactly as published:
 
 - Research Publications: `National Security Power and Constitutional Imbalance`
-- Legislation Publications: `EFTA II Memo`
+- Legislation: `EFTA II Memo`
 
 How to cite:
 

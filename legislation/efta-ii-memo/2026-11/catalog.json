@@ -1,0 +1,39 @@
+{
+  "approved_at": "2026-11-01",
+  "edition": "2026-11",
+  "files": {
+    "docx": {
+      "path": "legislation/efta-ii-memo/2026-11/efta-ii-memo-v2.9.3.docx",
+      "sha256": "6f21a6d517131fedd5f6f40e55662bf57c2451417f320d20fc90b2571ca4087b"
+    },
+    "markdown": {
+      "path": "legislation/efta-ii-memo/2026-11/index.md",
+      "sha256": "45c9311b06c7eaeead3fd7bac0636b3cd9ad7b8c916ef13df8cb4dd9127a06fb"
+    },
+    "pdf": {
+      "path": "legislation/efta-ii-memo/2026-11/efta-ii-memo-v2.9.3.pdf",
+      "sha256": "18c4ea52a27454bdcc6d936f3ce8f45acb9daef91356fea2ac5a0f6ab8bc3c53"
+    }
+  },
+  "peer_credit_digest": "0f3d5209b24390143db8fda0ae322ce602193631338c0c4be6170591770d4a0f",
+  "peer_projects": [
+    "courtlistener"
+  ],
+  "peer_register_sha256": "b3117855729867f0d2291e0566665f85278b40e06755f201a1e200a8cbc6be51",
+  "provenance": "Owner-approved immutable snapshot v2.9.3; operator register 2026-11-01",
+  "public_id": "pub-efta-ii-memo-v2-9-3",
+  "public_slug": "efta-ii-memo",
+  "released": "2026-11-05",
+  "rights": "CC BY 4.0",
+  "section": "legislation",
+  "source": {
+    "git_blob_sha": "3f8f54951d810afdb8cc790bcb1a45afebbbbc69",
+    "snapshot_sha256": "70a0cff5ba01c909bfd95addf867cd2926d2ea8c33055e4ad7e2296c0a685edb"
+  },
+  "source_cutoff": {
+    "fingerprint": "9d3bde22af08324b76b91c11cbaacc2ca61fe702e7895e479a29bf6ab091da8b",
+    "record_id": "2026-11"
+  },
+  "title": "EFTA II Memo — assessment of H.R. 9694 / S. 5005",
+  "version": "v2.9.3"
+}

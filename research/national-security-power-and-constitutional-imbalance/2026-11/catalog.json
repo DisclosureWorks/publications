@@ -1,0 +1,41 @@
+{
+  "approved_at": "2026-11-01",
+  "edition": "2026-11",
+  "files": {
+    "docx": {
+      "path": "research/national-security-power-and-constitutional-imbalance/2026-11/national-security-power-and-constitutional-imbalance-v9.2.2.docx",
+      "sha256": "291f138105637c570829206c4036bae55d5c0225bd715d1d838b117fd0bfcb2e"
+    },
+    "markdown": {
+      "path": "research/national-security-power-and-constitutional-imbalance/2026-11/index.md",
+      "sha256": "7cdf6f783f1dbfd642a2965877302047fe60c2e0f9a30c53279dfc9ab1d7dc76"
+    },
+    "pdf": {
+      "path": "research/national-security-power-and-constitutional-imbalance/2026-11/national-security-power-and-constitutional-imbalance-v9.2.2.pdf",
+      "sha256": "0e9f37ceb8a881ccbc26154bf18b10e3999e34e0a21fb6983f1823e0abfb193f"
+    }
+  },
+  "peer_credit_digest": "48ec01378d46958f1ab2fc17293e45a9a455f4fdf4bfbec55e7de39c8e01ac41",
+  "peer_projects": [
+    "courtlistener",
+    "epstein-data-concordance",
+    "soror-fv"
+  ],
+  "peer_register_sha256": "b3117855729867f0d2291e0566665f85278b40e06755f201a1e200a8cbc6be51",
+  "provenance": "Owner-approved immutable snapshot v9.2.2; operator register 2026-11-01",
+  "public_id": "pub-national-security-power-and-constitutional-imbalance-v9-2-2",
+  "public_slug": "national-security-power-and-constitutional-imbalance",
+  "released": "2026-11-05",
+  "rights": "CC BY 4.0",
+  "section": "research",
+  "source": {
+    "git_blob_sha": "29f2a964622c5650cfb013d4b047c8347d4c7b8f",
+    "snapshot_sha256": "1e4de9d951271ea8ee59fded6497b9444e329d5a4ed38753b4eb4997af1d171d"
+  },
+  "source_cutoff": {
+    "fingerprint": "9d3bde22af08324b76b91c11cbaacc2ca61fe702e7895e479a29bf6ab091da8b",
+    "record_id": "2026-11"
+  },
+  "title": "National Security Power and Constitutional Imbalance",
+  "version": "v9.2.2"
+}
